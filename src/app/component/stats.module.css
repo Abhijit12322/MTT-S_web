@@ -1,0 +1,50 @@
+
+.statsSection {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    margin-bottom: 150px;
+  }
+  
+  .statsSection .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .statBox {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .statNumber {
+    font-size: 48px;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .statLabel {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .statBox:hover .statNumber {
+    color: #007BFF;
+  }
+  
+  @media (max-width: 426px) {
+    .statsSection  {
+      flex-direction: column;
+      gap: 40px;
+      width:550px;
+    }
+  
+    .statNumber {
+      font-size: 36px;
+    }
+  }
+  

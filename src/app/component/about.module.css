@@ -1,0 +1,17 @@
+.container{
+    margin:100px;
+}
+.para{
+    color:#424242;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width:426px){
+    .container{
+       margin:50px;
+       width:450px;
+       margin-top: 150px;
+    }
+}
